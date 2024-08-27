@@ -1,0 +1,24 @@
+include <stdio.h>
+#include <string.h>
+
+int ispalindrome(char str[]){
+    int length=strlen(str);
+    for (int i=0;i<length/2;i++){
+        if(str[i]==str[length-1-i]){
+            return 1;
+        }
+        return 0;
+}
+}
+
+int main(){
+    char string[100];
+    printf("Print the String\n");
+    scanf("%s",string);
+    if(ispalindrome(string)){
+        printf("Yes this is Palindrome");
+    }
+    else{
+        printf("This is not the palindrome");
+}
+}

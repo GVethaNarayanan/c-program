@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+void name(char s[]){
+    printf("The name is %s",s);
+    
+}
+int main(){
+    char p[]="Vetha Narayanan";
+    name(p);
+}

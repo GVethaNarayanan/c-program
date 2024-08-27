@@ -1,0 +1,18 @@
+#include <stdio.h>
+int some(int a,int b){
+    int sum=a+b;
+    int diff=a-b;
+    int prod=a*b;
+    int dii=a/b;
+    printf("The sum: %d\n",sum);
+    printf("The difference is: %d\n",diff);
+    printf("The product is: %d\n",prod);
+    printf("The division is %d\n",dii);
+    
+
+}
+int main(){
+    int x,y;
+    scanf("%d\n%d",&x,&y);
+    some(x,y);
+}

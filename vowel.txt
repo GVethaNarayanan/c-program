@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main(){
+    char alpha;
+    printf("Enter the alphabet\n");
+    scanf("%c",&alpha);
+    printf("Check whether the alphabet is consonant or vowel\n");
+    if(alpha=='a' || alpha=='e' || alpha=='i' || alpha=='o' || alpha=='u'){
+        printf("The alpha entered is vowel");}
+    else{
+        printf("Enetered is consonant");
+    }
+    }

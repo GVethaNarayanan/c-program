@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int swap(int *a,int *b){
+    int turn;
+    turn=*a;
+    *a=*b;
+    *b=turn;
+    
+    
+    
+}
+int main(){
+    int x,y;
+    scanf("%d\n%d",&x,&y);
+    int get=swap(&x,&y);
+    printf("%d %d",x,y);
+}

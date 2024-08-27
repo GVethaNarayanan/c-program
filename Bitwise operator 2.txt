@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main(){
+    int a,b;
+    printf("The 1 num:");
+    scanf("%d",&a);
+    printf("The 2 num");
+    scanf("%d",&b);
+    printf("%d",(a<b)||(a==b));
+}

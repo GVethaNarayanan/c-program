@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main(){
+    int a,b;
+    int c,d;
+    scanf("%d",&a);
+    scanf("%d",&b);
+    scanf("%d",&c);
+    scanf("%d",&d);
+    int one=(a>b);
+    int two=(c<d);
+    if(one && two){
+        printf("True");}
+    else{
+        printf("False");}
+        
+    }

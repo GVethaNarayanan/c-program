@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main(){
+    int num=10;
+    printf("Print the value\n");
+    
+    if(num=10){
+        printf("The value entered is equal to 10");
+    }
+    else{
+        printf("Valu is not equal to 10");
+    }
+    }
